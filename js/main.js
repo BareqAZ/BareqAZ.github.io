@@ -8,27 +8,21 @@ function help(){
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about John Smith</td>\
+    <td>Everything you ever wanted to know about Bareq Al-Azzawi</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with John Smith</td>\
-  </tr>\
-  <tr>\
-    <td>links</td>\
-    <td>See what links John Smith wants you to click on</td>\
+    <td>How to get in touch with me</td>\
   </tr>\
   <tr>\
     <td>skills</td>\
-    <td>Get to know how good John Smith is at stuff</td>\
+    <td>Get to know what I'm good at</td>\
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download John Smith's CV</td>\
+    <td>Download my full CV</td>\
   </tr>\
   <tr>\
-    <td>rickroll</td>\
-    <td>Never Gonna Give You Up</td>\
   </tr></table>";
 }
 
@@ -36,74 +30,60 @@ function contact(){
   return "<h2><span style=\"color:#cc6666;\">Contact:</span></h2><table>\
   <tr>\
     <td>Email</td>\
-    <td><a href=\"mailto:john.smith@emailprovider.com\">john.smith@emailprovider.com</a></td>\
+    <td><a href=\"mailto:barq.firas@gmail.com\">barq.firas@gmail.com\</a></td>\
   </tr>\
   <tr>\
     <td>Telephone</td>\
-    <td><a href=\"tel:+45-657-56234\">+45-657-56234</a></td>\
+    <td>+358&nbsp;44&nbsp;956&nbsp;4424</td>\
   </tr>\
   <tr>\
     <td>Address</td>\
-    <td>John Smith</td>\
+    <td>Finland - Vantaa</td>\
   </tr>\
   <tr>\
-    <td> </td>\
-    <td>205 Autumn Street</td>\
+      <td>Linkedin</td>\
+    <td><a href=\"https://www.linkedin.com/in/bareq-a-493a10107/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> Bareq</a></td>\
   </tr>\
   <tr>\
-    <td> </td>\
-    <td>5472</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>London</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>UK</td>\
   </tr></table>";
 }
 
 function skills(){
   return "<h2><span style=\"color:#81a2be;\">Skills:</span></h2><table>\
   <tr>\
-    <td>Photoshop</td>\
-    <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
+    <td>Client support</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
   </tr>\
   <tr>\
-    <td>HTML</td>\
+    <td>Networking</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 75%</td>\
+  </tr>\
+  <tr>\
+    <td>Winodws</td>\
+    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
+  </tr>\
+  <tr>\
+      <td>Cloud</td>\
     <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
   </tr>\
   <tr>\
-    <td>Premiere Pro</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+        <td>Troubleshooting</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 85%</td>\
   </tr>\
   <tr>\
-    <td>Rickrolling</td>\
-    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
+    <td>Linux</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
   </tr></table>";
 }
 
 function about(){
-  return "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+  return "<p style=width:1000px;font-size:20px;text-align:left>My name is Bareq and I am 22 years old. I was born in Baghdad, Iraq and growing up all around me I saw technology grow at a rapid pace. The more time went on the more it seemed like not only an essential part of life in the 21st Century, but as a Human Right.</p> <p style=width:1000px;font-size:20px;text-align:left>Being a curious child, I would always dismantle electronic toys and challenge myself to get them working again. This mindset stuck with me up to this age, where I have the need to know how things operate to fill my curious side. As such, I gained a good amount of knowledge about how electronics work, eventually focusing on the IT and hardware area.</p> <p style=width:1000px;font-size:20px;text-align:left>The mindset and experimentation I displayed at a young age allowed me to grasp the basics and eventually get the knowledge needed to do more and more intricate repairs, be it hardware or software. As you'd expect I am the person my friends come running to as soon as there is something wrong with their laptop or phone. I hope this job will allow me to hone my skills even further, and as an added bonus I get to wake up every day and do what I love - help people - and Tinker with electronics, gaining a better understanding of their inner workings.</p>";
 }
 
 function cv(){
   return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
 }
 
-function credits(){
-  return "<p>Built by <a href=\"https://www.github.com/CedArctic\" target=\"_blank\"><i class=\"fab fa-github\"></i> CedArctic</a></p>";
-}
-
-function links(){
-  return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-  <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
-  <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-  <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
-  <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
-  </ul>";
-}
 
 function rickroll(){
   return "<p>We're no strangers to love<br>\
@@ -198,7 +178,7 @@ function commandProcessor(e){
     if(txtInput == "help"){
       document.getElementById('injected').innerHTML=help();
     }else if (txtInput=="all") {
-      document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
+      document.getElementById('injected').innerHTML=skills() + "\n\n\n" + "\n\n\n" + contact() + "\n\n\n" + cv();
     }else if (txtInput == "about") {
       document.getElementById('injected').innerHTML=about();
     }else if (txtInput == "contact") {
@@ -207,9 +187,11 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=cv();
     }else if (txtInput=="skills") {
       document.getElementById('injected').innerHTML=skills();
-    }else if (txtInput=="links") {
-      document.getElementById('injected').innerHTML=links();
     }else if (txtInput == "rickroll") {
+      var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
+      win.focus();
+      document.getElementById('injected').innerHTML=rickroll();
+          }else if (txtInput == "rick") {
       var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
       win.focus();
       document.getElementById('injected').innerHTML=rickroll();
