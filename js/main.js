@@ -59,7 +59,7 @@ function skills(){
     <td>▰▰▰▰▰▰▰▱▱▱ 75%</td>\
   </tr>\
   <tr>\
-    <td>Winodws</td>\
+    <td>Windows</td>\
     <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
   </tr>\
   <tr>\
